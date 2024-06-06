@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  bank_app:
+    build: .
+    tty: true
+    stdin_open: true
